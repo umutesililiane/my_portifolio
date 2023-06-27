@@ -71,3 +71,41 @@
    cursor: pointer;
    
  }
+ section{
+   min-height: 100vh;
+   padding: 10rem 7% 2rem;
+
+ }
+
+ .home{
+   display: flex;
+   align-items: center;
+   }
+  
+.home .home-content{
+   max-width: 44rem;
+}
+
+.home-content h3{
+   font-size: 3.2rem;
+   font-weight: 700;
+   line-height:.3 ;
+}
+.home-content h1{
+   font-size: 4.6rem;
+   font-weight: 700;
+
+}
+.home-content p{
+   font-size: 1.6rem;
+
+}
+.home-content .social-media a {
+   display: inline-flex;
+   justify-content: center;
+   align-items: center;
+   width: 4rem;
+   height: 4rem;
+   background: transparent;
+   border: .2rem solid;
+}
